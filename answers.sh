@@ -43,6 +43,15 @@ WHERE Name="Layal";
 
 DELETE FROM students WHERE Name="Layal";
 
+CREATE TABLE emplyeeComp As SELECT employees.Name , companies.Name , companies.Date
+FROM employees , companies
+WHERE companies.Name=employees.Company;
+
+
+SELECT emplyeeComp.Name FROM emplyeeComp WHERE Date>2000;
+
+SELECT Company FROM employees WHERE Role="Graphic Designer";
+
 
 
 
