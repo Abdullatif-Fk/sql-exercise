@@ -1,4 +1,6 @@
-SELECT name from students
+select * from students;
+
+SELECT name from students;
 
 SELECT * from students WHERE age >30;
 
