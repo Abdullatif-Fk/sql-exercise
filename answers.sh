@@ -53,5 +53,17 @@ SELECT emplyeeComp.Name FROM emplyeeComp WHERE Date>2000;
 SELECT Company FROM employees WHERE Role="Graphic Designer";
 
 
+SELECT Name, MAX(Points) 
+FROM students ;
+
+SELECT AVG(Points) FROM students;
+
+SELECT COUNT(id) FROM students WHERE Points=500;
+
+SELECT * FROM students WHERE Name LIKE "%s%";
+
+SELECT Name ,Points FROM students ORDER BY  Points DESC;
+
+
 
 
